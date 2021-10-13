@@ -1,0 +1,149 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
+header {
+    color: #ffa03e;
+    background-color: #8fe6ed;
+    border: 1px solid #8fe6ed;
+    display: block;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    padding: 5px 10px 20px 10px;
+
+}
+/*titles styles*/
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+.section-title {
+    text-align: left;
+    position: relative;
+}
+
+section {
+    border-radius: 10px;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+/*Blocks*/
+.colors {
+    width: 100%;
+}
+.color-section {
+    width: 15%;
+    margin: 0.7%;
+    min-height: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.pink{
+    background-color: pink;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+}
+/*fonst*/
+.fonts-section{
+    width: 30%;
+    margin: 0.7%;
+    min-height: 100px;
+    display: inline-block;
+    text-align: center;  
+}
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+
+}
+.source_code_pro{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*Text styles*/
+.text-styles{
+    width: 30%;
+    margin: 0.7%;
+    min-height: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.text-styles-title1{
+    font-weight: 700 bold;
+    font-size: 26px;
+    font-family: 'Nunito Sans';
+}
+
+.text-styles-title2{
+    font-weight: 500 bold;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.text-styles-title3{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins';
+
+}
+
+ul{
+    font-size: 14px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
